@@ -72,7 +72,13 @@ Callback is sent by POST method in Json format.
 
 Callback sample
 
-{ "address":"13VnRDeJan5smLTkZzwBdZjDv6F3LYpS6R", "amount":"0.001", "reference":"356789323", "hash":Bitcoin Transaction Hash, "confirmations":'0 or 1' }
+{ 
+"address":"13VnRDeJan5smLTkZzwBdZjDv6F3LYpS6R",
+"amount":"0.001", 
+"reference":"356789323", 
+"hash":Bitcoin Transaction Hash, 
+"confirmations":'0 or 1' 
+}
 
 Params Details
 
