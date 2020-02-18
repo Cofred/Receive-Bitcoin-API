@@ -31,6 +31,8 @@ Field	M/O	Format	Description
 callback_url	M	 URL On this url you will receive payment notifications
 
 Reference	M		Alpha Numeric	Merchant Reference ID
+
+label O Address label
 				
 # DoPayment Response
 
@@ -57,6 +59,7 @@ qr_imageurl	QR Image link for generated address
   "responseMessage":"Transaction successfull!",
   "reference":356789323,
   "address":"13VnRDeJan5smLTkZzwBdZjDv6F3LYpS6R",
+  "label":"15918448",
   "qr_imageurl":"Image URL here..."
 }
 
